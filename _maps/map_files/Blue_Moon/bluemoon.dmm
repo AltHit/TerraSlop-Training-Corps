@@ -35,21 +35,6 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/bluemoon/caves/e)
-"adP" = (
-/obj/effect/landmark/weed_node,
-/obj/machinery/atmospherics/components/unary/vent_pump{
-	dir = 1;
-	on = 1
-	},
-/obj/effect/ai_node,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
-"aer" = (
-/obj/structure/bed/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "aev" = (
 /obj/structure/cargo_container/nt{
 	dir = 4
@@ -144,10 +129,6 @@
 	dir = 10
 	},
 /area/bluemoon/outside/building/med)
-"ajc" = (
-/obj/effect/landmark/corpsespawner/prisoner,
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "ajy" = (
 /obj/machinery/light{
 	dir = 8
@@ -775,14 +756,9 @@
 /turf/open/floor/wood,
 /area/bluemoon/outside/building/dorms/eat)
 "aND" = (
-/obj/structure/barricade/wooden{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 8
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/obj/structure/barricade/folding,
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "aOP" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone{
 	dir = 2
@@ -903,9 +879,14 @@
 /turf/open/floor/grass,
 /area/bluemoon/outside/building/admin)
 "bbH" = (
-/obj/machinery/atmospherics/pipe/simple/green/hidden,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/obj/structure/barricade/solid{
+	dir = 8
+	},
+/obj/structure/barricade/solid{
+	dir = 1
+	},
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "bbX" = (
 /obj/structure/closet/l3closet/virology,
 /turf/open/floor/tile/white/warningstripe{
@@ -1424,16 +1405,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/r_wall,
 /area/bluemoon/outside/building/lz)
-"bFE" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump{
-	on = 1
-	},
-/obj/effect/ai_node,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "bFK" = (
 /obj/effect/spawner/random/misc/structure/broken_window/colonyspawn,
 /obj/machinery/door/poddoor/shutters/mainship{
@@ -1726,13 +1697,6 @@
 	dir = 8
 	},
 /area/bluemoon/caves/facility/eta)
-"bXR" = (
-/obj/machinery/door/window{
-	dir = 8
-	},
-/obj/machinery/door/window,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "bXS" = (
 /obj/structure/closet,
 /turf/open/floor/wood,
@@ -2087,9 +2051,11 @@
 /turf/open/floor/prison/darkred/corners,
 /area/bluemoon/caves/facility/eta/e)
 "cuo" = (
-/obj/structure/table,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/obj/structure/barricade/folding{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "cuV" = (
 /obj/structure/table,
 /obj/item/clothing/suit/armor/riot,
@@ -2492,13 +2458,6 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/bluemoon/caves/facility/eta)
-"cRA" = (
-/obj/effect/landmark/weed_node,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 8
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "cSq" = (
 /obj/effect/ai_node,
 /obj/structure/fence,
@@ -2547,10 +2506,6 @@
 	},
 /turf/open/floor/wood/fancy,
 /area/bluemoon/outside/building/dorms/chapel)
-"cUB" = (
-/obj/effect/landmark/corpsespawner/security,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "cVx" = (
 /obj/structure/bed/chair/office/light{
 	dir = 1
@@ -2592,6 +2547,13 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/snow/layer1,
 /area/bluemoon/outside/s)
+"cXu" = (
+/obj/effect/landmark/valhalla/xeno_spawn_landmark{
+	where = "east"
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/bluemoon/outside/n)
 "cXS" = (
 /obj/machinery/vending/MarineMed/Blood,
 /turf/open/floor/tile/green/whitegreen{
@@ -3679,10 +3641,6 @@
 	},
 /turf/open/floor/tile/darkish,
 /area/bluemoon/caves/s)
-"eig" = (
-/obj/machinery/atmospherics/pipe/manifold/green/hidden,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "eio" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -4311,11 +4269,6 @@
 "eZa" = (
 /turf/open/floor/plating/ground/snow/layer1,
 /area/bluemoon/outside/ne)
-"eZc" = (
-/obj/effect/landmark/weed_node,
-/obj/machinery/atmospherics/pipe/simple/green/hidden,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "eZf" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 4;
@@ -4747,10 +4700,12 @@
 /turf/open/floor/tile/dark/green2,
 /area/bluemoon/caves/facility/eta)
 "fzj" = (
-/obj/effect/landmark/corpsespawner/prison_security,
+/obj/effect/landmark/valhalla/xeno_spawn_landmark{
+	where = "north"
+	},
 /obj/effect/ai_node,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/turf/open/floor/plating/ground/snow/layer0,
+/area/bluemoon/outside/n)
 "fzV" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/spiralplate,
@@ -5085,19 +5040,6 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/prison,
 /area/bluemoon/caves/facility/lambda/s)
-"fXL" = (
-/obj/structure/table,
-/obj/machinery/door/window{
-	dir = 8
-	},
-/obj/item/tool/pen/blue{
-	pixel_x = 5
-	},
-/obj/effect/spawner/random/misc/paperbin,
-/turf/open/floor/tile/red/redtaupe{
-	dir = 8
-	},
-/area/bluemoon/outside/building/marshal)
 "fXX" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -5172,6 +5114,13 @@
 	dir = 8
 	},
 /area/bluemoon/outside/building/med)
+"gdy" = (
+/obj/effect/landmark/valhalla/xeno_spawn_landmark{
+	where = "south"
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/bluemoon/outside/n)
 "gdC" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -5190,13 +5139,6 @@
 /obj/item/tool/stamp,
 /turf/open/floor/wood,
 /area/bluemoon/caves/facility/omicron)
-"geJ" = (
-/obj/machinery/door/airlock/mainship/security/glass/free_access{
-	dir = 1;
-	name = "\improper Marshal Office Holding Cell"
-	},
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "gfe" = (
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
@@ -5249,10 +5191,6 @@
 /obj/effect/landmark/excavation_site_spawner,
 /turf/open/floor/spiralplate,
 /area/bluemoon/outside/building/engi/filt)
-"git" = (
-/obj/structure/closet/secure_closet/injection,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "giD" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 4
@@ -5662,13 +5600,6 @@
 	dir = 1
 	},
 /area/bluemoon/outside/building/admin)
-"gDF" = (
-/obj/structure/toilet{
-	pixel_y = 8
-	},
-/obj/effect/landmark/xeno_tunnel_spawn,
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "gFf" = (
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
@@ -5680,10 +5611,6 @@
 	},
 /turf/open/floor/wood,
 /area/bluemoon/outside/building/dorms/eat)
-"gFB" = (
-/obj/structure/closet/secure_closet/brig,
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "gGd" = (
 /obj/structure/table/wood,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -5774,16 +5701,6 @@
 "gJT" = (
 /turf/open/floor/plating/ground/snow/layer2,
 /area/bluemoon/outside/ne)
-"gJX" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 6
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "gJZ" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 5
@@ -5968,11 +5885,6 @@
 	},
 /turf/open/floor/tile/white,
 /area/bluemoon/outside/building/med)
-"gVW" = (
-/obj/effect/landmark/weed_node,
-/obj/effect/ai_node,
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "gWz" = (
 /obj/structure/platform/metalplatform{
 	dir = 1
@@ -7016,14 +6928,6 @@
 	},
 /turf/open/floor/plating,
 /area/bluemoon/caves/e/shallow)
-"iiU" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 4
-	},
-/obj/effect/ai_node,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "ije" = (
 /turf/closed/wall,
 /area/bluemoon/outside/building/cargo/shop)
@@ -7392,13 +7296,6 @@
 /obj/item/shard,
 /turf/open/floor/freezer,
 /area/bluemoon/caves/facility/eta/xeno)
-"iBV" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 4
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "iCb" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/barricade/wooden{
@@ -7436,21 +7333,6 @@
 /obj/machinery/power/apc/drained,
 /turf/open/floor/tile/white,
 /area/bluemoon/outside/building/virology)
-"iFe" = (
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/tile/darkish,
-/area/bluemoon/outside/building/marshal)
-"iFN" = (
-/obj/structure/table,
-/obj/item/storage/donut_box,
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/status_display{
-	pixel_y = 31
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "iGG" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/drained{
@@ -7940,11 +7822,6 @@
 	},
 /turf/open/floor/tile/dark,
 /area/bluemoon/caves/e/shallow)
-"jcC" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/landmark/excavation_site_spawner,
-/turf/open/floor/tile/darkish,
-/area/bluemoon/outside/building/marshal)
 "jcT" = (
 /obj/effect/landmark/weed_node,
 /turf/open/urbanshale/layer2,
@@ -8847,15 +8724,6 @@
 	dir = 4
 	},
 /area/bluemoon/caves/facility/eta/e)
-"jYv" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/barricade/wooden{
-	dir = 8
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "jYD" = (
 /obj/structure/bed/chair/office/light{
 	dir = 4
@@ -9222,12 +9090,6 @@
 /obj/effect/landmark/xeno_silo_spawn,
 /turf/open/urbanshale/layer1,
 /area/bluemoon/caves/se)
-"ktL" = (
-/obj/structure/bed/chair/office/light{
-	dir = 8
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "kua" = (
 /obj/structure/closet/secure_closet/bar,
 /turf/open/floor/wood,
@@ -9383,10 +9245,6 @@
 	dir = 4
 	},
 /area/bluemoon/outside/building/admin)
-"kEW" = (
-/obj/structure/window/framed/colony/reinforced/tinted,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "kFm" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -9553,14 +9411,6 @@
 	},
 /turf/open/floor/elevatorshaft,
 /area/bluemoon/caves/facility/omicron)
-"kNV" = (
-/obj/structure/filingcabinet/security,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 4
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "kOc" = (
 /obj/structure/barricade/wooden{
 	dir = 8
@@ -9625,12 +9475,6 @@
 	},
 /turf/open/floor,
 /area/bluemoon/outside/building/cargo)
-"kRe" = (
-/obj/machinery/door/airlock/multi_tile/mainship/secdoor/glass{
-	name = "\improper Marshal Office"
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "kRh" = (
 /obj/effect/landmark/corpsespawner/scientist/regular,
 /obj/item/weapon/gun/pistol/holdout,
@@ -10772,14 +10616,6 @@
 	dir = 6
 	},
 /area/bluemoon/caves/facility/bunker)
-"meX" = (
-/obj/structure/cable,
-/obj/effect/landmark/weed_node,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 9
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "meZ" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
 /obj/structure/cable,
@@ -11117,12 +10953,6 @@
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor,
 /area/bluemoon/outside/building/dorms)
-"mBQ" = (
-/obj/effect/spawner/random/weaponry/gun/rifles,
-/turf/open/floor/tile/red/redtaupe{
-	dir = 1
-	},
-/area/bluemoon/outside/building/marshal)
 "mBS" = (
 /obj/machinery/light{
 	dir = 1
@@ -11183,18 +11013,6 @@
 	dir = 8
 	},
 /area/bluemoon/outside/building/lz)
-"mDb" = (
-/obj/structure/table,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/computer/secure_data{
-	dir = 8
-	},
-/turf/open/floor/tile/red/redtaupe{
-	dir = 8
-	},
-/area/bluemoon/outside/building/marshal)
 "mDV" = (
 /obj/effect/spawner/random/misc/structure/broken_window/colonyspawn,
 /turf/open/floor/plating,
@@ -11268,12 +11086,6 @@
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/ice,
 /area/bluemoon/caves/e/shallow)
-"mLh" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/turf/open/floor/tile/darkish,
-/area/bluemoon/outside/building/marshal)
 "mLJ" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/effect/decal/cleanable/blood,
@@ -11359,13 +11171,6 @@
 /obj/item/stack/sheet/mineral/diamond,
 /turf/open/floor/tile/dark,
 /area/bluemoon/outside/building/mining)
-"mQo" = (
-/obj/structure/sink,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "mQp" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -11731,9 +11536,6 @@
 /obj/effect/landmark/weed_node,
 /obj/effect/ai_node,
 /turf/open/floor,
-/area/bluemoon/outside/building/marshal)
-"ngU" = (
-/turf/open/floor/tile/darkish,
 /area/bluemoon/outside/building/marshal)
 "nhC" = (
 /obj/effect/landmark/weed_node,
@@ -12402,11 +12204,11 @@
 	},
 /area/bluemoon/caves/facility/lambda/s)
 "nZx" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/obj/structure/prop/mainship/gelida/lightstick,
+/obj/machinery/button/valhalla/callout_button,
+/obj/effect/ai_node,
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "oaO" = (
 /obj/machinery/light{
 	dir = 1
@@ -12613,12 +12415,6 @@
 	},
 /turf/open/floor/plating,
 /area/bluemoon/caves/facility/eta)
-"ooa" = (
-/obj/effect/landmark/weed_node,
-/turf/open/floor/tile/red/redtaupe{
-	dir = 1
-	},
-/area/bluemoon/outside/building/marshal)
 "ooy" = (
 /obj/machinery/computer/security,
 /turf/open/floor/tile/dark/red2,
@@ -12855,13 +12651,6 @@
 /obj/effect/ai_node,
 /turf/open/floor/tile/white,
 /area/bluemoon/outside/building/med/icu)
-"oFt" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/drained,
-/turf/open/floor/tile/red/redtaupe{
-	dir = 1
-	},
-/area/bluemoon/outside/building/marshal)
 "oFE" = (
 /turf/closed/wall/r_wall,
 /area/bluemoon/outside/e)
@@ -13500,11 +13289,6 @@
 	},
 /turf/open/floor/tile/dark,
 /area/bluemoon/outside/building/admin)
-"pAj" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "pAD" = (
 /obj/effect/spawner/random/misc/structure/broken_reinforced_window/colonyspawn,
 /turf/open/floor/plating,
@@ -14551,16 +14335,6 @@
 	dir = 4
 	},
 /area/bluemoon/caves/facility/eta/e)
-"qTu" = (
-/obj/machinery/door/airlock/mainship/security/glass/free_access{
-	name = "\improper Marshal Office Waiting Area"
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 4
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "qTE" = (
 /obj/structure/table,
 /obj/item/stock_parts/subspace/analyzer,
@@ -14694,11 +14468,6 @@
 	dir = 8
 	},
 /area/bluemoon/caves/facility/lambda/n)
-"rbk" = (
-/obj/effect/landmark/corpsespawner/prisoner/burst,
-/obj/effect/ai_node,
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "rbE" = (
 /obj/structure/barricade/wooden{
 	dir = 1
@@ -14838,12 +14607,11 @@
 /turf/open/floor/carpet/edge2,
 /area/bluemoon/outside/building/admin)
 "rgQ" = (
-/obj/machinery/door/airlock/multi_tile/mainship/generic{
-	dir = 1;
-	name = "\improper Marshal Office"
+/obj/structure/barricade/folding{
+	dir = 1
 	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "rhn" = (
 /obj/item/tool/weldingtool,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -15005,12 +14773,6 @@
 /obj/item/stack/sheet/mineral/gold,
 /turf/open/floor/rcircuit/off,
 /area/bluemoon/caves/facility/omicron)
-"roz" = (
-/obj/machinery/door/airlock/multi_tile/mainship/secdoor/glass{
-	name = "\improper Marshal Office Isolation"
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "roI" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -15403,15 +15165,6 @@
 	},
 /turf/open/floor/tile/white,
 /area/bluemoon/outside/building/med)
-"rPq" = (
-/obj/effect/turf_decal/warning_stripes/linethick{
-	dir = 4
-	},
-/obj/structure/sign/prop4{
-	dir = 1
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "rPE" = (
 /obj/structure/table,
 /turf/open/floor/tile/dark/gray,
@@ -15872,11 +15625,12 @@
 /turf/open/floor/tile/dark/gray,
 /area/bluemoon/outside/building/engi)
 "sqD" = (
-/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+/obj/structure/barricade/solid,
+/obj/structure/barricade/solid{
 	dir = 8
 	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "srY" = (
 /obj/machinery/door/poddoor/mainship/indestructible{
 	dir = 2
@@ -16776,16 +16530,6 @@
 	},
 /turf/open/floor/plating/ground/snow/layer1,
 /area/bluemoon/outside/c)
-"txj" = (
-/obj/effect/landmark/corpsespawner/prison_security,
-/obj/effect/spawner/random/weaponry/gun/rifles,
-/obj/effect/spawner/random/weaponry/ammo/rifle,
-/obj/effect/spawner/random/weaponry/ammo/rifle,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 8
-	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "txv" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -16862,11 +16606,11 @@
 	},
 /area/bluemoon/caves/facility/lambda/s)
 "tGy" = (
-/obj/effect/landmark/weed_node,
-/obj/machinery/atmospherics/pipe/simple/green/hidden,
-/obj/effect/ai_node,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/obj/structure/barricade/folding{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "tGW" = (
 /obj/machinery/light,
 /turf/open/floor/wood,
@@ -17644,6 +17388,13 @@
 /obj/item/scalp,
 /turf/open/floor/prison/whitepurple,
 /area/bluemoon/caves/facility/lambda/s)
+"uzF" = (
+/obj/effect/landmark/valhalla/xeno_spawn_landmark{
+	where = "west"
+	},
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/bluemoon/outside/n)
 "uzG" = (
 /turf/open/floor/wood,
 /area/bluemoon/caves/facility/omicron)
@@ -17775,16 +17526,6 @@
 	dir = 8
 	},
 /turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
-"uHD" = (
-/obj/effect/turf_decal/warning_stripes/linethick{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 4
-	},
-/turf/open/floor,
 /area/bluemoon/outside/building/marshal)
 "uHH" = (
 /obj/effect/ai_node,
@@ -18156,15 +17897,6 @@
 /obj/item/phone,
 /turf/open/floor/prison/plate,
 /area/bluemoon/caves/facility/lambda/n)
-"vak" = (
-/obj/machinery/door/window{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/tile/red/redtaupe{
-	dir = 9
-	},
-/area/bluemoon/outside/building/marshal)
 "vat" = (
 /obj/structure/cable,
 /obj/effect/landmark/weed_node,
@@ -18209,12 +17941,6 @@
 /obj/structure/lattice,
 /turf/open/floor/elevatorshaft,
 /area/bluemoon/caves/rock)
-"vbG" = (
-/obj/structure/toilet{
-	pixel_y = 8
-	},
-/turf/open/floor/tile/dark,
-/area/bluemoon/outside/building/marshal)
 "vbR" = (
 /obj/structure/cable,
 /obj/effect/ai_node,
@@ -18710,11 +18436,14 @@
 	},
 /area/bluemoon/outside/building/med)
 "vHw" = (
-/obj/machinery/atmospherics/components/unary/vent_pump{
-	on = 1
+/obj/structure/barricade/solid{
+	dir = 4
 	},
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/obj/structure/barricade/solid{
+	dir = 1
+	},
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "vHD" = (
 /obj/structure/platform/metalplatform/nondense{
 	dir = 9
@@ -18848,14 +18577,6 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark/gray,
 /area/bluemoon/outside/building/cargo/shop)
-"vQp" = (
-/obj/effect/landmark/corpsespawner/security,
-/obj/effect/spawner/random/weaponry/ammo/rifle,
-/obj/machinery/atmospherics/pipe/simple/green/hidden,
-/turf/open/floor/tile/red/redtaupe{
-	dir = 1
-	},
-/area/bluemoon/outside/building/marshal)
 "vQJ" = (
 /obj/structure/bed/chair/comfy,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -19368,21 +19089,6 @@
 	dir = 8
 	},
 /area/bluemoon/outside/building/lz)
-"wus" = (
-/obj/structure/table,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/item/reagent_containers/food/drinks/coffee,
-/obj/item/tool/stamp,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 4
-	},
-/turf/open/floor/tile/red/redtaupe{
-	dir = 8
-	},
-/area/bluemoon/outside/building/marshal)
 "wuR" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/freezer,
@@ -19854,16 +19560,6 @@
 	dir = 5
 	},
 /area/bluemoon/outside/building/cargo/shop)
-"xcD" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/coffee,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/simple/green/hidden{
-	dir = 10
-	},
-/obj/effect/ai_node,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
 "xcP" = (
 /obj/effect/turf_decal/warning_stripes/linethick{
 	dir = 8
@@ -20822,12 +20518,12 @@
 /turf/open/floor/plating/ground/ice,
 /area/bluemoon/caves/sw)
 "ycl" = (
-/obj/structure/bed/chair{
-	dir = 8
+/obj/structure/barricade/solid,
+/obj/structure/barricade/solid{
+	dir = 4
 	},
-/obj/effect/landmark/weed_node,
-/turf/open/floor,
-/area/bluemoon/outside/building/marshal)
+/turf/open/floor/tile/dark,
+/area/bluemoon/outside/n)
 "ycm" = (
 /obj/structure/table,
 /obj/effect/spawner/random/misc/plushie,
@@ -27763,19 +27459,19 @@ iKK
 iKK
 iKK
 iKK
-htr
-htr
-htr
-htr
-htr
-hKy
-hKy
-hKy
-htr
-htr
-jlo
-iBV
-rgQ
+mXK
+iUv
+iUv
+mXK
+iUv
+iUv
+uzF
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
 jlo
 htr
 htr
@@ -27910,19 +27606,19 @@ iKK
 dyL
 iKK
 iKK
-htr
-iFe
-mLh
-ngU
-htr
-hKy
-hKy
-cMU
-htr
-oGq
-gJX
-meX
-gyn
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
 oUY
 oGq
 jlo
@@ -28057,19 +27753,19 @@ iPA
 iKK
 iKK
 iKK
-htr
-ngU
-jcC
-ngU
-htr
-hKy
-cMU
-dDi
-htr
-rPq
-uHD
-pky
-pky
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
 ngv
 pky
 jlo
@@ -28204,19 +27900,19 @@ iKK
 uJX
 uJX
 uJX
-htr
-bXR
-kEW
-kEW
-htr
-htr
-jlo
-jlo
-htr
-vak
-wus
-fXL
-mDb
+mXK
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
 cFZ
 khM
 htr
@@ -28351,19 +28047,19 @@ pLJ
 xGy
 uJX
 uJX
-htr
-wqx
-ycl
-cnt
-roz
-wqx
-wqx
-wqx
-kRe
-jXj
-iBV
-ktL
-cUB
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
 cnt
 lnk
 htr
@@ -28498,19 +28194,19 @@ uJX
 xGy
 uJX
 uJX
-htr
-git
-bFE
-bbH
-bbH
+iUv
+iUv
+iUv
+iUv
+iUv
 bbH
 tGy
 sqD
-bbH
-vQp
-pAj
-eZc
-bbH
+iUv
+iUv
+iUv
+iUv
+iUv
 uKg
 sDj
 ipr
@@ -28645,19 +28341,19 @@ uJX
 xGy
 uJX
 uJX
-htr
-htr
-htr
-htr
-htr
-htr
+fzj
+iUv
+iUv
+mXK
+iUv
+rgQ
 nZx
 aND
-htr
-mBQ
-kNV
-cuo
-cuo
+iUv
+mXK
+iUv
+iUv
+gdy
 kzC
 lnk
 htr
@@ -28792,19 +28488,19 @@ uJX
 xGy
 uJX
 uJX
-uJX
-htr
-vbG
-ciT
-gFB
-jlo
-wqx
-wCg
-htr
-fje
-kNV
-htr
-iFN
+iUv
+iUv
+iUv
+iUv
+iUv
+vHw
+cuo
+ycl
+iUv
+iUv
+iUv
+iUv
+iUv
 ycO
 lnk
 jlo
@@ -28939,19 +28635,19 @@ uJX
 xGy
 uJX
 uJX
-uJX
-htr
-mQo
-rbk
-wOi
-geJ
-gyn
-txj
-htr
-ooa
-kNV
-cuo
-cuo
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
 cnt
 vfC
 jlo
@@ -29086,19 +28782,19 @@ uJX
 xGy
 uJX
 uJX
-uJX
-htr
-ckS
-xWL
-hGA
-jlo
-vHw
-eig
-htr
-jXj
-iiU
-wqx
-wqx
+mXK
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
 gyn
 fHN
 jlo
@@ -29233,19 +28929,19 @@ uJX
 xGy
 uJX
 uJX
-uJX
-htr
-htr
-htr
-htr
-htr
-jYv
-cRA
-htr
-wrH
-qTu
-wrH
-ePO
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
 ePO
 ePO
 htr
@@ -29381,18 +29077,18 @@ xGy
 uJX
 uJX
 iUv
-htr
-gDF
-ciT
-gFB
-jlo
-cnt
-cRA
-htr
-ooa
-iBV
-wqx
-aer
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
+iUv
 avZ
 huv
 ePO
@@ -29527,19 +29223,19 @@ uJX
 xGy
 uJX
 iUv
+mXK
 iUv
-htr
-mQo
-gVW
-ajc
-geJ
-fzj
-wCg
-htr
-oFt
-xcD
-sqD
-adP
+iUv
+mXK
+iUv
+iUv
+cXu
+iUv
+iUv
+mXK
+iUv
+iUv
+mXK
 anC
 lnk
 jjp

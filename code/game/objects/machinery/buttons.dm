@@ -274,6 +274,42 @@
 	else
 		icon_state = "doorctrl0"
 
+/obj/machinery/button/valhalla/callout_button
+	name = "Callout training start"
+	var/call_dir = 5
+	var/mob/living/carbon/xenomorph/runner/staged/linked_xeno
+	link = "xenowest"
+
+/obj/machinery/button/valhalla/callout_button/attack_hand(mob/living/user)
+	var/xeno_wanted = tgui_input_list(user, "What xeno do you want to spawn?", "Xeno spawn", GLOB.all_xeno_types)
+	if(!xeno_wanted)
+		return
+	sleep(1)
+
+	QDEL_NULL(linked_xeno)
+	call_dir = rand(1,4)
+	if(call_dir == 1)
+		link = "xenonorth"
+	if(call_dir == 2)
+		link = "xenoeast"
+	if(call_dir == 3)
+		link = "xenosouth"
+	if(call_dir == 4)
+		link = "xenowest"
+	if(!get_turf(GLOB.valhalla_button_spawn_landmark[link]))
+		to_chat(user, span_warning("An error occured, yell at the coders."))
+		CRASH("Valhalla button linked with an improper landmark: button ID: [link].")
+	linked_xeno = new xeno_wanted(get_turf(GLOB.valhalla_button_spawn_landmark[link]))
+	if(call_dir == 1)
+		linked_xeno.want_dir = "North."
+	if(call_dir == 2)
+		linked_xeno.want_dir = "East."
+	if(call_dir == 3)
+		linked_xeno.want_dir = "South."
+	if(call_dir == 4)
+		linked_xeno.want_dir = "West."
+
+
 /obj/machinery/button/valhalla
 	resistance_flags = INDESTRUCTIBLE
 	///The mob created by the spawner

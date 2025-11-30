@@ -60,8 +60,18 @@ GLOBAL_LIST_INIT_TYPED(xeno_caste_datums, /list/datum/xeno_caste, init_xeno_cast
 		var/datum/xeno_caste/caste = new typepath
 		.[get_base_caste_type(caste)][caste.upgrade] = caste
 
+/mob/living/carbon/xenomorph/runner/staged
+	var/want_dir = "none"
+
+/mob/living/carbon/xenomorph/runner/staged/Hear(message, atom/movable/speaker, datum/language/message_language, raw_message, radio_freq, list/spans, message_mode)
+	. = ..()
+	to_chat(speaker, raw_message)
+	if(raw_message == want_dir)
+		explosion(get_turf(src.loc), 1, 2, 3, 4)
+
 GLOBAL_LIST_INIT(all_xeno_types, list(
 	/mob/living/carbon/xenomorph/runner,
+	/mob/living/carbon/xenomorph/runner/staged,
 	/mob/living/carbon/xenomorph/runner/primordial,
 	/mob/living/carbon/xenomorph/runner/melter,
 	/mob/living/carbon/xenomorph/runner/melter/primordial,
